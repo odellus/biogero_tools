@@ -1,0 +1,16 @@
+data:
+  gen_age_homo: 'https://genomics.senescence.info/genes/human_genes.zip'
+  gen_age_model: 'https://genomics.senescence.info/genes/models_genes.zip'
+  gen_age_expr: 'https://genomics.senescence.info/uarrays/signatures_supplement.zip'
+  longevity_map: 'https://genomics.senescence.info/longevity/longevity_genes.zip'
+  drug_age: 'https://genomics.senescence.info/drugs/dataset.zip'
+  cell_age: 'https://genomics.senescence.info/cells/cellAge.zip'
+  an_age: 'https://genomics.senescence.info/species/dataset.zip'
+
+args:
+  - name: 'testing'
+    default: False
+    description: 'Boolean flag to test code instead of doing full run.'
+  - name: 'input_dir'
+    default: 'data'
+    description: 'Directory of input data to run on.'
