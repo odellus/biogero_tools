@@ -6,6 +6,7 @@ data:
   drug_age: 'https://genomics.senescence.info/drugs/dataset.zip'
   cell_age: 'https://genomics.senescence.info/cells/cellAge.zip'
   an_age: 'https://genomics.senescence.info/species/dataset.zip'
+  drugage_path: 'data/drugage/drugage.csv'
 
 args:
   - name: 'testing'

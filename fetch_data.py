@@ -9,11 +9,7 @@ from zipfile import ZipFile
 from absl import app
 from absl import flags
 
-def get_cfg():
-    fname = 'config.yaml'
-    with open(fname, 'r') as f:
-        return yaml.load(f, Loader=yaml.Loader)
-
+from utils import get_cfg
 
   
 # specifying the zip file name
